@@ -14,7 +14,7 @@
 </div>
 
 <br> <br>
-<div NgIf="response">
+<div *ngIf="response">
     <label>Nome: {{ response.name}}</label>
     <label>Profissão: {{ response.job}}</label>
     <label>Id: {{ response.id }}</label>
